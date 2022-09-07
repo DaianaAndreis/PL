@@ -1,14 +1,22 @@
-numeros = [45, 54, 59, 104, 73]
-max = 0
-i = 0
-
-for (i = 0; i < numeros.length; i++) {
-  if (max > numeros[i]) {
-    max
-  }
-  else {
-    max = numeros[i]
-  }
-
+//suma, resta, multiplicación, división
+function suma (valor1,valor2){
+  resultado= valor1+valor2
+  console.log(resultado)
 }
-console.log(max)
+function resta (valor1,valor2){
+  resultado= valor1-valor2
+  console.log(resultado)
+}
+function multiplicacion (factor1,factor2){
+  resultado= factor1*factor2
+  console.log(resultado)
+}
+function division (dividendo,divisor){
+  resultado= dividendo/divisor
+  console.log(resultado)
+}
+
+suma();
+resta();
+multiplicacion();
+division();
